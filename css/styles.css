@@ -11,14 +11,10 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-}
-
 body {
-  font-family: "Roboto" sans-serif;
-  color: #2e2f42;
-  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* ====== /Comonn styles ====== */
 
@@ -30,10 +26,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.text-color {
   color: #4d5ae5;
+}
+.text-color-top {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -42,10 +38,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: #2e2f42;
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -54,15 +51,20 @@ body {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .address-link {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: inherit;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -85,7 +87,7 @@ body {
 }
 
 .title-button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,7 +96,8 @@ body {
   background-color: #4d5ae5;
 }
 
-.title-button:hover {
+.title-button:hover,
+.title-button:focus {
   background-color: #404bbf;
 }
 
@@ -103,17 +106,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .business-solutions-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.section-our-team {
-  background-color: #f4f4fd;
 }
 
 .section-our-team-title {
@@ -121,6 +120,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -129,6 +130,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-info {
@@ -136,7 +138,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .section-portfolio {
@@ -144,6 +145,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -151,13 +154,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-info {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* ====== /Page main styles ====== */
@@ -174,6 +177,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.text-color-footer {
   color: #f4f4fd;
 }
 
